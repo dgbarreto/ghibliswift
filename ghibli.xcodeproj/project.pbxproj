@@ -16,6 +16,10 @@
 		951985F427909167002187A8 /* ghibliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951985F327909167002187A8 /* ghibliTests.swift */; };
 		951985FE27909168002187A8 /* ghibliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951985FD27909168002187A8 /* ghibliUITests.swift */; };
 		9519860027909168002187A8 /* ghibliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951985FF27909168002187A8 /* ghibliUITestsLaunchTests.swift */; };
+		9519860D279093F1002187A8 /* MovieCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9519860C279093F1002187A8 /* MovieCollectionViewController.swift */; };
+		9519860F27909505002187A8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9519860E27909505002187A8 /* Movie.swift */; };
+		9519861127909780002187A8 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9519861027909780002187A8 /* MovieCell.swift */; };
+		95D90E8227A9D2430091068B /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D90E8127A9D2430091068B /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		951985F927909167002187A8 /* ghibliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ghibliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		951985FD27909168002187A8 /* ghibliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghibliUITests.swift; sourceTree = "<group>"; };
 		951985FF27909168002187A8 /* ghibliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghibliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9519860C279093F1002187A8 /* MovieCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewController.swift; sourceTree = "<group>"; };
+		9519860E27909505002187A8 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9519861027909780002187A8 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		95D90E8127A9D2430091068B /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				951985E527909167002187A8 /* Assets.xcassets */,
 				951985E727909167002187A8 /* LaunchScreen.storyboard */,
 				951985EA27909167002187A8 /* Info.plist */,
+				9519860C279093F1002187A8 /* MovieCollectionViewController.swift */,
+				9519860E27909505002187A8 /* Movie.swift */,
+				9519861027909780002187A8 /* MovieCell.swift */,
+				95D90E8127A9D2430091068B /* MovieDetailViewController.swift */,
 			);
 			path = ghibli;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				951985E127909164002187A8 /* ViewController.swift in Sources */,
+				9519860D279093F1002187A8 /* MovieCollectionViewController.swift in Sources */,
+				9519861127909780002187A8 /* MovieCell.swift in Sources */,
 				951985DD27909164002187A8 /* AppDelegate.swift in Sources */,
+				95D90E8227A9D2430091068B /* MovieDetailViewController.swift in Sources */,
 				951985DF27909164002187A8 /* SceneDelegate.swift in Sources */,
+				9519860F27909505002187A8 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
